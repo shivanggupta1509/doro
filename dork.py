@@ -52,7 +52,7 @@ def search_result(q, engine, pages, processes, result):
     counter = 0
     for range in result:
         for r in range:
-            print('[+] ' + r)
+            print('' + r)
             counter += 1
     print()
     print('-' * 70)
